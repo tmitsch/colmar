@@ -1,0 +1,40 @@
+@media only screen and (max-width: 480px){
+
+  nav{
+    display: none;
+  }
+
+  .mobile-header{
+  display: flex;
+  height: 64px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* Hero Block */
+
+.hero-block-mobile{
+  background-color: lightgray;
+}
+
+.hero-block-mobile img{
+  height: 180px;
+}
+
+.hero-block-mobile .button{
+  background-color: #404040;
+  color: white;
+  padding: 8px;
+  margin: 24px 24px 32px 24px;
+}
+
+  /* Footer */
+  footer{
+  padding: 16px;
+  margin-top: 24px;}
+
+  .footer-right{
+  display: none;
+  }
+
+}
